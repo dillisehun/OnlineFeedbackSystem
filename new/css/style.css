@@ -1,0 +1,90 @@
+ol,ul{margin:0px;padding:0px;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-spacing:0;}
+/* start editing from here */
+/****-----start-body----****/
+body{
+	background:url("../images/bg2.jpg") repeat ;
+  font-family: 'Open Sans', sans-serif;
+
+
+}
+body h1 {
+  color:#fff;
+  text-align: center;
+  padding: 1em 0;
+  font-size: 2.9em;
+}
+
+form {
+  padding: 10% 10% 10% 10%;
+}
+/*-----*/
+.app-cross input[type="text"],.app-cross input[type="password"],.app-cross input[type="radio"]{
+  width: 81.2%;
+  padding: 1.25em 1em 1.25em 4em;
+  color: #283440;
+  font-size: 16px;
+  outline: none;
+  font-weight: 500;
+  border: none;
+  border-bottom:1px solid #DFDFDF;
+  font-family: 'Open Sans', sans-serif;
+  background: url("../images/icons.png") no-repeat 14px 20px #ffffff;
+  }
+.app-cross input[type="password"]{
+   background: url("../images/icons.png") no-repeat 13px -53px #ffffff;
+  }
+
+  .submit {
+  margin: 1em 0;
+  }
+.submitt {
+  margin: 1em 0;
+  }
+.app-cross input[type="submit"]{
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  padding: 17px 15px;
+  width:100%;
+  border:none;
+  border-top:6px solid #92c622;
+  border-bottom:6px solid #92c622;
+  moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  background: url("../images/arrow.png") no-repeat 364px 17px #92c622;
+}
+ input[type="submit"]:hover{
+  border-top:6px solid #1ab2e8;
+  border-bottom:6px solid #1ab2e8;
+  color: #fff;
+  background: url("../images/arrow.png") no-repeat 23px 17px #92c622;
+
+}
+.buttons {
+  padding: 3em 0em 2em 0em;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.44);
+    margin-bottom: 2em;
+}
+/*---------------*/
+.copy-right {
+  padding: 3em 1em;
+}
+
+.copy-right p {
+	color: #fff;
+	font-size: 1em;
+	font-weight:400;
+  margin: auto auto;
+  text-align: center;
+}
+.copy-right p a {
+	  color: #323542;
+
+/*-----start-responsive-design------*/
+ 
